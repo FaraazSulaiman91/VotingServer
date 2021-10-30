@@ -1,0 +1,22 @@
+# DROP TABLE IF EXISTS votes;
+# create table votes
+# (
+#     id         bigint auto_increment PRIMARY KEY,
+#     question   varchar(255) not null,
+#     vote_count int default 0
+# );
+#
+# DROP TABLE IF EXISTS questions;
+# create table questions
+# (
+#     id         bigint auto_increment PRIMARY KEY,
+#     name   varchar(255) not null
+# );
+#
+# DROP TABLE IF EXISTS sessions;
+# create table sessions
+# (
+#     id         bigint auto_increment PRIMARY KEY,
+#     code   varchar(255) not null,
+#     name   varchar(255) not null
+# );
